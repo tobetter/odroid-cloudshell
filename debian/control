@@ -1,0 +1,14 @@
+Source: odroid-cloudshell
+Section: misc
+Priority: extra
+Maintainer: Dongjin Kim <tobetter@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/tobetter/odroid-cloudshell
+#Vcs-Git: git://git.debian.org/collab-maint/odroid-cloudshell.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/odroid-cloudshell.git;a=summary
+
+Package: odroid-cloudshell
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends} odroid-lirc
+Description: CloudShell for ODROID-XU4

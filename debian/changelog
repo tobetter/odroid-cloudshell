@@ -1,0 +1,5 @@
+odroid-cloudshell (0.1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Dongjin Kim <tobetter@gmail.com>  Tue, 21 Jul 2015 18:09:19 +0900
