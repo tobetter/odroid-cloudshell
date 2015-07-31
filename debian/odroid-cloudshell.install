@@ -1,2 +1,3 @@
 etc/udev/rules.d/20-udev-fb.rules /etc/udev/rules.d/
 etc/modprobe.d/odroid-cloudshell.conf /etc/modprobe.d/
+etc/cloudshell/backlight.sh /etc/cloudshell/
