@@ -9,6 +9,7 @@ Homepage: https://github.com/tobetter/odroid-cloudshell
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/odroid-cloudshell.git;a=summary
 
 Package: odroid-cloudshell
-Architecture: any
+Architecture: armhf
 Depends: ${shlibs:Depends}, ${misc:Depends} odroid-lirc
-Description: CloudShell for ODROID-XU4
+Description: odroid-cloudshell package
+  This package is to enable ODROID CloudShell LCD
