@@ -2,3 +2,9 @@
 
 rm -f /etc/udev/rules.d/20-udev-fb.rules
 rm -f /etc/modprobe.d/odroid-cloudshell.conf
+
+DRVNAMES="fbtft_device gpio-ir-recv gpioplug-ir-recv"
+
+for i in ${DRVNAMES}; do
+        sed -i "/$i/d" /etc/modules
+done
