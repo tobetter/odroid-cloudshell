@@ -5,5 +5,5 @@ set -e
 DRVNAMES="fbtft_device gpio-ir-recv gpioplug-ir-recv"
 
 for i in ${DRVNAMES}; do
-        [ `cat /etc/modules | grep ${DRVNAME}` ] || echo ${DRVNAME} >> /etc/modules
+        [ `cat /etc/modules | grep $i` ] || echo $i >> /etc/modules
 done
