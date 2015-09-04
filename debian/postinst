@@ -2,7 +2,7 @@
 
 set -e
 
-DRVNAMES="fbtft_device gpio-ir-recv gpioplug-ir-recv"
+DRVNAMES="spi-s3c64xx fbtft_device gpio-ir-recv gpioplug-ir-recv"
 
 for i in ${DRVNAMES}; do
         [ `cat /etc/modules | grep $i` ] || echo $i >> /etc/modules
