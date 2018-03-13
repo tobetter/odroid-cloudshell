@@ -1,0 +1,27 @@
+language: c
+
+env:
+  global:
+
+addons:
+  apt:
+    packages:
+    - gcc-aarch64-linux-gnu
+    - fakeroot
+    - devscripts
+    - build-essential
+    - lintian
+    - debhelper
+
+git:
+  depth: 1
+
+install:
+
+script:
+- debuild clean
+- debuild -us -uc
+
+before_deploy:
+
+deploy:
