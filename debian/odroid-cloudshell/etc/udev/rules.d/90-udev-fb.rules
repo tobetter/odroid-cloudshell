@@ -1,0 +1,1 @@
+KERNEL=="fb0", ATTR{name}=="fb_ili9340", ACTION=="add", RUN+="/etc/cloudshell/backlight.sh"

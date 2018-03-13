@@ -1,0 +1,11 @@
+Package: odroid-cloudshell
+Version: 1.0
+Architecture: amd64
+Maintainer: Dongjin Kim <tobetter@gmail.com>
+Installed-Size: 20
+Depends: odroid-lirc
+Section: misc
+Priority: extra
+Homepage: https://github.com/tobetter/odroid-cloudshell
+Description: odroid-cloudshell package
+  This package is to enable ODROID CloudShell LCD
